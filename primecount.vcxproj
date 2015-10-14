@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7E208FA1-3419-40AC-A9E0-79B2C8E53857}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>primecount</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)\include;$(SolutionDir)\..\primesieve\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\Install\Cpp\x64\tiff\libtiff;D:\Install\Cpp\x64\lpng;D:\Install\Cpp\x64\zlib;D:\Install\Cpp\x64\jpeg</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\aligned_vector.hpp" />
+    <ClInclude Include="include\BitSieve.hpp" />
+    <ClInclude Include="include\calculator.hpp" />
+    <ClInclude Include="include\FactorTable.hpp" />
+    <ClInclude Include="include\fast_div.hpp" />
+    <ClInclude Include="include\generate.hpp" />
+    <ClInclude Include="include\int128.hpp" />
+    <ClInclude Include="include\isqrt.hpp" />
+    <ClInclude Include="include\min_max.hpp" />
+    <ClInclude Include="include\PhiCache.hpp" />
+    <ClInclude Include="include\PhiTiny.hpp" />
+    <ClInclude Include="include\PiTable.hpp" />
+    <ClInclude Include="include\pmath.hpp" />
+    <ClInclude Include="include\popcount.hpp" />
+    <ClInclude Include="include\primecount-internal.hpp" />
+    <ClInclude Include="include\primecount.hpp" />
+    <ClInclude Include="include\print.hpp" />
+    <ClInclude Include="include\S1.hpp" />
+    <ClInclude Include="include\S2LoadBalancer.hpp" />
+    <ClInclude Include="include\S2Status.hpp" />
+    <ClInclude Include="include\tos_counters.hpp" />
+    <ClInclude Include="include\Wheel.hpp" />
+    <ClInclude Include="src\app\cmdoptions.hpp" />
+    <ClInclude Include="src\deleglise-rivat\S2.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\primesieve\src\primesieve\EratBig.cpp" />
+    <ClCompile Include="..\primesieve\src\primesieve\EratMedium.cpp" />
+    <ClCompile Include="..\primesieve\src\primesieve\EratSmall.cpp" />
+    <ClCompile Include="..\primesieve\src\primesieve\iterator.cpp" />
+    <ClCompile Include="..\primesieve\src\primesieve\ParallelPrimeSieve.cpp" />
+    <ClCompile Include="..\primesieve\src\primesieve\popcount.cpp" />
+    <ClCompile Include="..\primesieve\src\primesieve\PreSieve.cpp" />
+    <ClCompile Include="..\primesieve\src\primesieve\PrimeFinder.cpp" />
+    <ClCompile Include="..\primesieve\src\primesieve\PrimeGenerator.cpp" />
+    <ClCompile Include="..\primesieve\src\primesieve\primesieve-api.cpp" />
+    <ClCompile Include="..\primesieve\src\primesieve\PrimeSieve-nthPrime.cpp" />
+    <ClCompile Include="..\primesieve\src\primesieve\PrimeSieve.cpp" />
+    <ClCompile Include="..\primesieve\src\primesieve\SieveOfEratosthenes.cpp" />
+    <ClCompile Include="..\primesieve\src\primesieve\WheelFactorization.cpp" />
+    <ClCompile Include="src\app\cmdoptions.cpp" />
+    <ClCompile Include="src\app\help.cpp" />
+    <ClCompile Include="src\app\main.cpp" />
+    <ClCompile Include="src\BitSieve.cpp" />
+    <ClCompile Include="src\deleglise-rivat\pi_deleglise_rivat1.cpp" />
+    <ClCompile Include="src\deleglise-rivat\pi_deleglise_rivat2.cpp" />
+    <ClCompile Include="src\deleglise-rivat\pi_deleglise_rivat_parallel1.cpp" />
+    <ClCompile Include="src\deleglise-rivat\pi_deleglise_rivat_parallel2.cpp" />
+    <ClCompile Include="src\deleglise-rivat\S2_easy.cpp" />
+    <ClCompile Include="src\deleglise-rivat\S2_hard.cpp" />
+    <ClCompile Include="src\deleglise-rivat\S2_trivial.cpp" />
+    <ClCompile Include="src\FactorTable.cpp" />
+    <ClCompile Include="src\generate.cpp" />
+    <ClCompile Include="src\Li.cpp" />
+    <ClCompile Include="src\lmo\pi_lmo1.cpp" />
+    <ClCompile Include="src\lmo\pi_lmo2.cpp" />
+    <ClCompile Include="src\lmo\pi_lmo3.cpp" />
+    <ClCompile Include="src\lmo\pi_lmo4.cpp" />
+    <ClCompile Include="src\lmo\pi_lmo5.cpp" />
+    <ClCompile Include="src\lmo\pi_lmo_parallel1.cpp" />
+    <ClCompile Include="src\lmo\pi_lmo_parallel2.cpp" />
+    <ClCompile Include="src\lmo\pi_lmo_parallel3.cpp" />
+    <ClCompile Include="src\nth_prime.cpp" />
+    <ClCompile Include="src\P2.cpp" />
+    <ClCompile Include="src\P3.cpp" />
+    <ClCompile Include="src\phi.cpp" />
+    <ClCompile Include="src\PhiCache.cpp" />
+    <ClCompile Include="src\PhiTiny.cpp" />
+    <ClCompile Include="src\PiTable.cpp" />
+    <ClCompile Include="src\pi_legendre.cpp" />
+    <ClCompile Include="src\pi_lehmer.cpp" />
+    <ClCompile Include="src\pi_meissel.cpp" />
+    <ClCompile Include="src\pi_primesieve.cpp" />
+    <ClCompile Include="src\primecount.cpp" />
+    <ClCompile Include="src\print.cpp" />
+    <ClCompile Include="src\S1.cpp" />
+    <ClCompile Include="src\S2LoadBalancer.cpp" />
+    <ClCompile Include="src\S2Status.cpp" />
+    <ClCompile Include="src\test.cpp" />
+    <ClCompile Include="src\Wheel.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

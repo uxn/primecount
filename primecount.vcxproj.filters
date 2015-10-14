@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\deleglise-rivat">
+      <UniqueIdentifier>{12ebdbaa-d6de-4762-8e7b-1ad48eb800e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lmo">
+      <UniqueIdentifier>{d38edd35-4f67-40f8-a477-7ca2f675bdea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\app">
+      <UniqueIdentifier>{82f48b6b-007b-4bb7-b61c-ea73b31111c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\primesieve">
+      <UniqueIdentifier>{3834dbe0-b379-49f4-b28e-b0c8dbb459a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\aligned_vector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BitSieve.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\calculator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FactorTable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fast_div.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\generate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\int128.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\isqrt.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\min_max.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PhiCache.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PhiTiny.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PiTable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pmath.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\popcount.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\primecount.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\primecount-internal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\print.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\S1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\S2LoadBalancer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\S2Status.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tos_counters.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Wheel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\deleglise-rivat\S2.hpp">
+      <Filter>Source Files\deleglise-rivat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\cmdoptions.hpp">
+      <Filter>Source Files\app</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BitSieve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FactorTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\generate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Li.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nth_prime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\P2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\P3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\phi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PhiCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PhiTiny.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pi_legendre.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pi_lehmer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pi_meissel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pi_primesieve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PiTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\primecount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\S1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\S2LoadBalancer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\S2Status.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wheel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\deleglise-rivat\pi_deleglise_rivat_parallel1.cpp">
+      <Filter>Source Files\deleglise-rivat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\deleglise-rivat\pi_deleglise_rivat_parallel2.cpp">
+      <Filter>Source Files\deleglise-rivat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\deleglise-rivat\pi_deleglise_rivat1.cpp">
+      <Filter>Source Files\deleglise-rivat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\deleglise-rivat\pi_deleglise_rivat2.cpp">
+      <Filter>Source Files\deleglise-rivat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\deleglise-rivat\S2_easy.cpp">
+      <Filter>Source Files\deleglise-rivat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\deleglise-rivat\S2_hard.cpp">
+      <Filter>Source Files\deleglise-rivat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\deleglise-rivat\S2_trivial.cpp">
+      <Filter>Source Files\deleglise-rivat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lmo\pi_lmo_parallel1.cpp">
+      <Filter>Source Files\lmo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lmo\pi_lmo_parallel2.cpp">
+      <Filter>Source Files\lmo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lmo\pi_lmo_parallel3.cpp">
+      <Filter>Source Files\lmo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lmo\pi_lmo1.cpp">
+      <Filter>Source Files\lmo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lmo\pi_lmo2.cpp">
+      <Filter>Source Files\lmo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lmo\pi_lmo3.cpp">
+      <Filter>Source Files\lmo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lmo\pi_lmo4.cpp">
+      <Filter>Source Files\lmo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lmo\pi_lmo5.cpp">
+      <Filter>Source Files\lmo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\cmdoptions.cpp">
+      <Filter>Source Files\app</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\help.cpp">
+      <Filter>Source Files\app</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\main.cpp">
+      <Filter>Source Files\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primesieve\src\primesieve\iterator.cpp">
+      <Filter>Source Files\primesieve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primesieve\src\primesieve\EratBig.cpp">
+      <Filter>Source Files\primesieve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primesieve\src\primesieve\EratMedium.cpp">
+      <Filter>Source Files\primesieve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primesieve\src\primesieve\EratSmall.cpp">
+      <Filter>Source Files\primesieve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primesieve\src\primesieve\ParallelPrimeSieve.cpp">
+      <Filter>Source Files\primesieve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primesieve\src\primesieve\popcount.cpp">
+      <Filter>Source Files\primesieve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primesieve\src\primesieve\PreSieve.cpp">
+      <Filter>Source Files\primesieve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primesieve\src\primesieve\PrimeFinder.cpp">
+      <Filter>Source Files\primesieve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primesieve\src\primesieve\PrimeGenerator.cpp">
+      <Filter>Source Files\primesieve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primesieve\src\primesieve\PrimeSieve.cpp">
+      <Filter>Source Files\primesieve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primesieve\src\primesieve\PrimeSieve-nthPrime.cpp">
+      <Filter>Source Files\primesieve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primesieve\src\primesieve\SieveOfEratosthenes.cpp">
+      <Filter>Source Files\primesieve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primesieve\src\primesieve\WheelFactorization.cpp">
+      <Filter>Source Files\primesieve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primesieve\src\primesieve\primesieve-api.cpp">
+      <Filter>Source Files\primesieve</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
